@@ -1,0 +1,29 @@
+<article id="works-questme" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>QUEST ME</h3>
+				<h4>ポートフォリオサイト</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML5+CSS(3)</li>
+				<li>JavaScript</li>
+				<li>デザイン</li>
+				<li>制作期間：-日</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>ご覧頂いている水澤俊介のポートフォリオサイトです。<br>
+				作品を紹介するとともに、ポートフォリオサイト自体で「自分や自分ができることを伝える」というテーマを『QUEST ME』というタイトルに込めて制作しました。<br>
+				レスポンシブにせず、スマートフォンに最適化したサイトもあわせて作りました。
+				</p>
+			</div>
+			<p>スマホ版: <a href="http://mizzz.jp/questme/sp/" target="_blank">http://mizzz.jp/questme/sp/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/questme_m1.png" width="512" height="445" alt="Quest Meのページです。サイト右上にはゲームテイストのインタラクティブな作品紹介のパネルが少しだけ見えています" class="m1">
+	<img src="img/works/questme_m2.png" width="320" height="278" alt="Quest Meのページです。『View Extra』ボタンを押すことで作品紹介パネルがファーストビュー内にに展開します" class="m2">
+<!-- /works-individual --></article>

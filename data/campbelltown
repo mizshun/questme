@@ -1,0 +1,32 @@
+<article id="works-campbelltown" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>キャンベルタウン野鳥の森</h3>
+				<h4>公共施設サイト</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>Flash</li>
+				<li>デザイン</li>
+				<li>制作期間：30日</li>
+				<li>19ページ</li>
+				<li>4人グループ制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>鳥の飼育施設「キャンベルタウン野鳥の森」のサイトです。ターゲットユーザーを小さなお子さんがいるファミリー層に定め、以下の施策で来園者増につながるサイトを目指しました。</p>
+				<ol>
+					<li>1. 野鳥の森について知ってもらう</li>
+					<li>2. 野鳥の森、鳥に興味を持ってもらう</li>
+					<li>3. 来園につながる動機づけを強化する</li>
+				</ol>
+				<p>主にFlash部分を担当しています。</p>
+			</div>
+			<p>Launch Web Site: <a href="http://www2.ocn.ne.jp/~yacho/" target="_blank">http://www2.ocn.ne.jp/~yacho/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/campbelltown_m1.png" width="512" height="445" alt="キャンベルタウン野鳥の森サイトのトップページです" class="m1">
+	<img src="img/works/campbelltown_m2.png" width="320" height="278" alt="キャンベルタウン野鳥の森サイトのとりさん紹介ページです。" class="m2">
+<!-- /works-individual --></article>

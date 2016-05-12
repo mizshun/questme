@@ -1,0 +1,28 @@
+<article id="works-mytunes" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>My Tunes</h3>
+				<h4>音楽プレイヤーWebアプリ</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML5+CSS(3)</li>
+				<li>JavaScript</li>
+				<li>jQuery Mobile</li>
+				<li>デザイン</li>
+				<li>制作期間：7日</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>JavaScriptとjQuery Mobileの学習のために制作したスマートフォン対応Webアプリです。HTML5のaudioAPIで再生、一時停止、シークなどの機能を作っています。<small>※mp3対応ブラウザのみ再生可</small><br>
+				また、左側のサムネイルをクリックすることで各曲の歌詞や情報を表示できるようにしました。</p>
+			</div>
+			<p>Launch Web Site: <a href="http://mizzz.jp/mytunes/" target="_blank">http://mizzz.jp/mytunes/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/mytunes_m1.png" width="512" height="445" alt="My Tunesのユーザーインターフェースです。トラックが縦にリスト表示されます" class="m1">
+	<img src="img/works/mytunes_m2.png" width="320" height="278" alt="曲の歌詞や情報画面です" class="m2">
+<!-- /works-individual --></article>

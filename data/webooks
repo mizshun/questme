@@ -1,0 +1,36 @@
+<article id="works-webooks" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>WEBOOKS</h3>
+				<h4>IT専門書籍販売サイト（架空）</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>PHP+MySQL</li>
+				<li>デザイン</li>
+				<li>制作期間：75日</li>
+				<li>54ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>PHP+MySQL学習のための自習作です。一般的なECサイトにもとづいて、以下の機能を実装しました。
+				</p>
+				<ul>
+					<li>・登録・登録情報変更・登録解除などアカウントサービス</li>
+					<li>・ウィッシュリスト</li>
+					<li>・商品の検索</li>
+					<li>・商品の検索履歴表示</li>
+					<li>・カートシステム</li>
+					<li>・レコメンド表示</li>
+					<li>・商品管理</li>
+				</ul>
+			</div>
+			<!-- <p>Launch Web Site: br<a href="http://localhost/webooks/" target="_blank">http://localhost/webooks/</a></p> -->
+		<!-- /works-contents --></section>
+	<img src="img/works/webooks_m1.png" width="512" height="445" alt="Webooksのトップページ画面です" class="m1">
+	<img src="img/works/webooks_m2.png" width="320" height="278" alt="Webooksの商品詳細ページ画面です" class="m2">
+<!-- /works-individual --></article>

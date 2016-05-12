@@ -1,0 +1,25 @@
+<article id="works-myprofile" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h4>プロフィールサイト</h4>
+				<h3>My Profile</h3>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>デザイン</li>
+				<li>制作期間：1日</li>
+				<li>2ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>職業訓練の課題で制作した自分の趣味嗜好を簡単にまとめたプロフィールサイトです。<br>各コンテンツ間の余白を充分にとり、シンプルで見やすい画面作りを心がけました。</p>
+			</div>
+			<!-- <p>Launch Web Site: <a href="http://mizzz.jp/profile/" target="_blank">http://mizzz.jp/profile/</a></p> -->
+		<!-- /works-contents --></section>
+	<img src="img/works/myprofile_m1.jpg" alt="My Profileサイトのトップページです" class="m1">
+	<img src="img/works/myprofile_m2.jpg" alt="My Profileサイトの詳細ページです。様々なジャンルの好きな作品について説明しています" class="m2">
+<!-- /works-individual --></article>

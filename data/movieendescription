@@ -1,0 +1,26 @@
+<article id="works-movieendescription" class="works-individual">
+	<header class="works-header">
+		<hgroup>
+			<h3>Movieen Site Description</h3>
+			<h4>Movieenご説明サイト</h4>
+		</hgroup>
+	</header>
+	
+	<section class="works-contents">
+		<h4>担当作業</h4>
+		<ul>
+			<li>HTML5+CSS(3)</li>
+			<li>JavaScript</li>
+			<li>制作期間：2日</li>
+			<li>1ページ</li>
+			<li>個人制作</li>
+		</ul>
+		<div class="works-contents-body">
+			<p>職業訓練の課題で制作した、架空のDVD販売サイト「Movieen」のご紹介です。<br>
+			スクロールを横の動きで表現することで、遷移フローを表現しました。<br>それにあわせて画面下部にそれぞれの画面のサムネイルボタンを横並びに設置して、現在の位置関係と操作をまとめました。</p>
+		</div>
+		<p>Launch Web Site: <a href="http://mizzz.jp/description/" target="_blank">http://mizzz.jp/description/</a></p>
+	<!-- /works-contents --></section>
+	<img src="img/works/movieendescription_m1.png" width="512" height="445" alt="Movieenご説明サイト内のトップページ紹介です。" class="m1">
+	<img src="img/works/movieendescription_m2.png" width="320" height="278" alt="画面下にはスライドアップする操作パネルがあります。" class="m2">
+<!-- /works-individual --></article>

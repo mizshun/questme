@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong,
+sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, header, nav, article, aside, footer, hgroup, section, figure {
+	margin:  0;
+	padding: 0;
+	border:  0;
+	outline: 0;
+	background : transparent;
+	font-weight: inherit;
+	font-style:  inherit;
+	font-size:   100%;
+	font-family: inherit;
+	text-decoration: none;
+}
+body {
+	color: #333;
+	font-size: 13px;
+	line-height : 1.5;
+	/* font-family: '小塚ゴシック Pr6N EL', '小塚ゴシック Pro EL', KozGoPr6N-ExtraLight, KozGoPro-ExtraLight, 'ヒラギノ角ゴ StdN W1', 'ヒラギノ角ゴ Std W1', 'ヒラギノ角ゴ ProN W3', 'ヒラギノ角ゴ Pro W3', HiraKakuStdN-W1, HiraKakuStd-W1,HiraKakuProN-W3,HiraKakuPro-W3, Meiryo, MS-PGothic, MS-Gothic, MS-UIGothic,'Myriad Pro', MyriadPro, MyriadStd, Arial, Verdana, sans-serif; */
+	font-family: Arial, Helvetica, meiryo, sans-serif;
+
+}
+ul, ol        { list-style: none; }
+img	          { border: 0; vertical-align: middle; }
+table         { border-collapse : separate; border-spacing: 0; }
+input,select  { vertical-align: middle; }
+blockquote, q { quotes: none; }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after       { content: ''; content: none; }
+::selection {
+	background: #5ABB47;
+	color: #fff;
+}
+*::-moz-selection {
+	background: #5ABB47;
+	color: #fff;
+}
+
+/* 枠点線なし */
+input { outline: none; }
+input[type="button"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+	border: none;
+}
+
+/* clearfix */
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.cf { min-height: 1px; _height: 1px; }
+
+/* HTML5 */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure,
+footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video
+{ display: block; }

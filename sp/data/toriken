@@ -1,0 +1,32 @@
+<article id="works-toriken" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h4>Eラーニングサイト（架空）</h4>
+				<h3>トリビア検定</h3>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>PHP+MySQL</li>
+				<li>デザイン</li>
+				<li>制作期間：11日</li>
+				<li>9ページ</li>
+				<li>5人グループで制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>職業訓練の課題で制作しました。10問出題される問題に答え、知識の幅を拡げようというゲーム性のあるサイトです。<br>主にPHPによる問題全般のプログラムを担当、以下の機能を持たせました。</p>
+				<ul>
+					<li>・出題ジャンルの選択</li>
+					<li>・問題を重複させない</li>
+					<li>・各解答に関連するウィキペディアの記事を表示</li>
+					<li>・解答率に応じた結果表示</li>
+				</ul>
+			<!-- /works-contents-body --></div>
+			<p>Launch Web Site: <a href="http://mizzz.jp/trivia/" target="_blank">http://mizzz.jp/trivia/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/toriken_m1.jpg" alt="トリビア検定サイトのトップページです" class="m1">
+	<img src="img/works/toriken_m2.jpg" alt="トリビア検定サイトの検定結果ぺージです" class="m2">
+<!-- /works-individual --></article>

@@ -1,0 +1,28 @@
+<article id="works-kiseki" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h4>移動カフェサイト（架空）</h4>
+				<h3>cafe KISEKI</h3>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>JavaScript</li>
+				<li>WordPress</li>
+				<li>バスキャラクターアイコン作成</li>
+				<li>制作期間：3日(コーディングのみ)</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>Webスクールで制作した移動カフェのサイトです。<br>
+				コーディングの他、店舗の移動情報地図をjQueryのプラグイン（グーグルマップ使用）で自作しました。（サイトのデザインは別の生徒の方がされました）また、スクール後にWordpressオリジナルテーマにしてブログ機能を備えたサイトにしました。
+				</p>
+			</div>
+		<!-- /works-contents --></section>
+	<img src="img/works/kiseki_m1.jpg" alt="cafe Kisekiのトップページです" class="m1">
+	<img src="img/works/kiseki_m2.jpg" alt="ブログのトップページです" class="m2">
+<!-- /works-individual --></article>

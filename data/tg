@@ -1,0 +1,26 @@
+<article id="works-tg" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>HTML5 TEMPLATE GENERATOR</h3>
+				<h4>制作ツールサイト</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML5+CSS</li>
+				<li>JavaScript</li>
+				<li>デザイン</li>
+				<li>制作期間：7日</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>HTML5のひな形を作ることができるサイトです。jQuery、jQueryUIの学習アウトプットとして制作しました。<br>手軽に使えるようシンプルを心がけています。<br>また、生成直後からコードを全選択状態にしたり、HTML5APIのLocalStrageで設定データを保存できるようにするなどして、利便性の向上を考えました。</p>
+			</div>
+			<p>Launch Web Site: <a href="http://mizzz.jp/tg/" target="_blank">http://mizzz.jp/tg/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/tg_m1.png" width="512" height="445" alt="HTML5 TEMPLATE GENERATORのページです。結果コードが表示されています。" class="m1">
+	<img src="img/works/tg_m2.png" width="320" height="278" alt="HTML5 TEMPLATE GENERATORのページです。結果コード生成前の初期表示です。" class="m2">
+<!-- /works-individual --></article>

@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+/* 全体
+   ========================================================================== */
+body {
+	background-color: #fff;
+/*	background-image: -webkit-gradient(radial, center center, 0, center center, 1, from(#ccc), to(transparent));
+	background-image: -webkit-radial-gradient(#eee 1px, transparent 1px);
+	background-image:    -moz-radial-gradient(#eee 1px, transparent 1px);
+	background-image:     -ms-radial-gradient(#eee 1px, transparent 1px);
+	background-image:      -o-radial-gradient(#eee 1px, transparent 1px);
+	background-image:         radial-gradient(#eee 1px, transparent 1px);
+	-webkit-background-size: 5px 5px;
+	   -moz-background-size: 5px 5px;
+	        background-size: 5px 5px;*/
+	background: url('../img/bg_body_dotted.gif')  0 0 repeat;
+}
+.unit h2 {
+	margin: 1.25rem 1rem 0;
+}
+
+
+/* ヘッダー
+   ========================================================================== */
+#g-header {
+	margin-bottom: 2.5rem;
+}
+#g-hgroup {
+	position: relative;
+	width: 200px;
+	margin: 1rem auto 0;
+}
+#logo + h2 {
+	margin-top: -10px;
+	color: #3D7A1F;
+	font-size: 11px;
+	text-align: right;
+	letter-spacing: 0.1rem;
+}
+.device {
+	width: 100%;
+	height: 24px;
+	margin: 1.25rem auto 0;
+	background-color: #F2F2F2;
+	background-image: url(../icon_questme.png);
+	background-position: center 4px;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4) inset;
+	        box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4) inset;
+	font-family: 'Geo',sans-serif;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.device li {
+	float: left;
+	width: 50%;
+}
+.device li a {
+	display: block;
+	-webkit-tap-highlight-color: #fc0;
+}
+.device li:nth-child(1) a {
+	margin-right: 16px;
+	text-align: right;
+}
+.device li:nth-child(2) a {
+	margin-left: 16px;
+	text-align: left;
+}
+
+
+/* HELLO
+   ========================================================================== */
+#hello p {
+	margin-top: 0.75rem;
+	padding: 0.75rem 1rem;
+	border-top: 3px solid #70B52C;
+	border-bottom: 3px solid #70B52C;
+	background: rgba(63, 159, 7, 0.15);
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+	        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+
+/* ABOUT
+   ========================================================================== */
+#about h3 {
+	display: none;
+}
+
+/* tabAbout */
+.tabAbout {
+	margin-top: 0.75rem;
+	font-family: 'Geo',sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+.tabAbout li {
+	float: left;
+	width: 50%;
+	padding: 1rem 0;
+	border-top: 3px solid #DD2046;
+	border-bottom: 3px solid #DD2046;
+	background: #ff375f;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+	        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+	-webkit-tap-highlight-color: #fc0;
+	cursor: pointer;
+}
+
+/* personal */
+.personal {
+	padding: 0.75rem 1rem;
+	background: rgba(255, 107, 136, 0.2);
+}
+.personal p {
+	margin-top: 0.75rem;
+}
+.personal p:first-of-type {
+	margin-top: 0;
+}
+.personal b {
+	color: #E63156;
+}
+
+/* history */
+.history {
+	padding: 0.75rem 1rem;
+	background: #ff375f;
+}
+.history li {
+	position: relative;
+	clear: both;
+	margin-top: 0.75rem;
+}
+.history li:first-child {
+	margin-top: 0;
+}
+.history img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.history h4,
+.history p {
+	margin-left: 3.5rem;
+}
+.history h4 {
+	position: relative;
+	top: -0.4rem;
+	color: #FC0;
+	text-shadow: #661626 1px 1px 2px;
+}
+.history h4 span {
+	font-family: 'Geo',sans-serif;
+}
+.history p {
+	margin-top: 0.25rem;
+}
+
+/* WORKS
+   ========================================================================== */
+#works {
+	overflow: hidden;
+	position: relative;
+	padding: 0 0 1.25rem;
+	border-top: 8px solid #000;
+	border-bottom: 8px solid #000;
+	background: #f2f2f2 url(../img/bg_works_grid.png) 0 0;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+	        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+/* works-thumbs */
+.works-btn-select {
+	position: absolute;
+	top: -2rem;
+	right: -1.75rem;
+	width: 128px;
+	height: 128px;
+	border: none;
+	-webkit-border-radius: 80px;
+        border-radius: 80px;
+	background: #000;
+	-webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4);
+	        box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.4);
+	font-family: 'Geo',sans-serif;
+	font-size: 1.5rem;
+	color: #fff;
+	text-align: center;
+	line-height: 128px;
+	cursor: pointer;
+}
+.works-thumbs {
+	position: absolute;
+	top: 4rem;
+	right: 0rem;
+	width: 100%;
+	background: #000;
+	-webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+	        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+}
+.works-thumbs h3 {
+	position: relative;
+	z-index: 9999;
+}
+.works-thumbs ul {
+	padding: 2%;
+}
+.works-thumbs li {
+	float: left;
+	width: 24%;
+	margin: 0.5%;
+	width: 32%;
+	margin: 0.5%;
+	-webkit-tap-highlight-color: #fc0;
+}
+.works-thumbs img {
+	width: 100%;
+	height: auto;
+}
+
+/* works-individuals */
+.works-individual {
+	margin: 2.25rem 1rem 0;
+}
+.works-header h3 {
+	margin-top: 0.25rem;
+	font-family: 'Aldrich', sans-serif;
+	font-size: 2rem;
+	color: #fc9a00;
+}
+.works-header h4 {
+	font-size: 0.75rem;
+}
+.works-contents {
+	margin-top: 0.5rem;
+}
+.works-contents h4 {
+	display: none;
+}
+.works-contents li {
+	font-size: 0.75rem;
+	margin-bottom: 0.25em;
+}
+.works-contents > ul li {
+	display: inline-block;
+	padding: 0.25rem 0.5rem;
+	border-radius: 0.75rem;
+	background: #fc9a00;
+	color: #fff;
+	white-space: nowrap;
+}
+.works-contents-body {
+	margin-top: 0.5rem;
+}
+.works-contents-body > ul,
+.works-contents-body > ol {
+	margin: 0.25rem 0 0.25rem 1rem;
+}
+.works-contents-body > ul li:first-child,
+.works-contents-body > ol li:first-child {
+	margin-top: 0.25rem;
+}
+.works-individual img {
+	width: 100%;
+	height: auto;
+	margin-top: 0.5rem;
+-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.7);
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+
+/* loader */
+#jsworksLoader {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.6);
+}
+#jsworksLoader img {
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+
+/* SKILLS
+   ========================================================================== */
+#skills {
+	margin-top: 1.25rem;
+}
+#skills p {
+	margin: 1.25rem 1rem 0;
+}
+
+
+
+/* CONTACT
+   ========================================================================== */
+#contact address {
+	height: 7rem;
+	margin-top: 0.75rem;
+	background-color: #069;
+	/*background-image: -webkit-linear-gradient(top, #00476B 50%, transparent 50%);
+	background-image:    -moz-linear-gradient(top, #00476B 50%, transparent 50%);
+	background-image:     -ms-linear-gradient(top, #00476B 50%, transparent 50%);
+	background-image:      -o-linear-gradient(top, #00476B 50%, transparent 50%);
+	background-image:         linear-gradient(top, #00476B 50%, transparent 50%);
+	-webkit-background-size: 1px 2px;
+	   -moz-background-size: 1px 2px;
+	        background-size: 1px 2px;*/
+	background: url('../img/bg_contact_border.gif') 0 0 repeat;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+	        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4) inset;
+	font-family: 'Geo', sans-serif;
+ 	color: #fff;
+	font-size: 1.75rem;
+	line-height: 7rem;
+	letter-spacing: 0.05rem;
+	text-align: center;
+	text-shadow: 1px 1px 0 #002A40,2px 2px 0 #002A40;
+}
+
+
+/* フッター
+   ========================================================================== */
+#g-footer {
+	margin: 1rem 0 1rem;
+}
+#g-footer p {
+	font-size: 0.75rem;
+	text-align: center;
+}
+
+
+/* CSSスプライト
+   ========================================================================== */
+.sp {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+#logo {
+    background: url('../img/sprite.png') no-repeat 0 -200px;
+	width: 200px;
+	height: 78px;
+}
+#hello h2 {
+    background: url('../img/sprite.png') no-repeat 0 -160px;
+	width: 138px;
+	height: 34px;
+}
+#about h2 {
+    background: url('../img/sprite.png') no-repeat 0 0;
+	width: 155px;
+	height: 34px;
+}
+#works h2 {
+    background: url('../img/sprite.png') no-repeat 0 -80px;
+	height: 34px
+}
+#skills h2 {
+    background: url('../img/sprite.png') no-repeat 0 -120px;
+	width: 126px;
+	height: 34px;
+}
+#contact h2 {
+    background: url('../img/sprite.png') no-repeat 0 -40px;
+	width: 220px;
+	height: 34px;
+}

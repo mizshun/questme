@@ -1,0 +1,26 @@
+<article id="works-nenga" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h4>年賀状サイト</h4>
+				<h3>新年のあいさつ</h3>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>Flash</li>
+				<li>デザイン</li>
+				<li>制作期間：2日</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>Web年賀状として近しい人に見てもらうために制作したサイトです。<br>Webならではの楽しんでもらえるものをと考え、色を塗ったトラが動きだし年賀状のワクをとびだして踊るというFlashコンテンツを作りました。</p>
+			</div>
+			<p>Launch Web Site: <a href="http://www.ab.auone-net.jp/~oxygen/nenga/" target="_blank">http://www.ab.auone-net.jp/~oxygen/nenga/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/nenga_m1.jpg" alt="新年のあいさつサイトのトップページです。パレットから色を選んでトラの絵に色を塗れます" class="m1">
+	<img src="img/works/nenga_m2.jpg" alt="新年のあいさつサイトの塗り絵完成イメージです" class="m2">
+<!-- /works-individual --></article>

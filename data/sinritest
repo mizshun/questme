@@ -1,0 +1,25 @@
+<article id="works-sinritest" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h3>みんなの心理テスト</h3>
+				<h4>WEBサイト</h4>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>デザイン</li>
+				<li>制作期間：1日</li>
+				<li>1ページ</li>
+				<li>個人制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>イラストレーターの技術向上を主な目的に制作したサイトです。<br>ドットイラストで作ったゲーム画面の任意の場所をクリックするとその場所に応じた心理判定結果が見られるようになっています。</p>
+			</div>
+			<p>Launch Web Site: <a href="http://www.ab.auone-net.jp/~oxygen/shinri-test/" target="_blank">http://www.ab.auone-net.jp/~oxygen/shinri-test/</a></p>
+		<!-- /works-contents --></section>
+	<img src="img/works/sinritest_m1.png" width="512" height="445" alt="みんなの心理テストのトップページです" class="m1">
+	<img src="img/works/sinritest_m2.png" width="320" height="278" alt="みんなの心理テストの結果ページです" class="m2">
+<!-- /works-individual --></article>

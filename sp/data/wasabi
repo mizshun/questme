@@ -1,0 +1,25 @@
+<article id="works-wasabi" class="works-individual">
+		<header class="works-header">
+			<hgroup>
+				<h4>企業サイト（架空）</h4>
+				<h3>WASABI</h3>
+			</hgroup>
+		</header>
+		
+		<section class="works-contents">
+			<h4>担当作業</h4>
+			<ul>
+				<li>HTML+CSS</li>
+				<li>Flash</li>
+				<li>制作期間：30日</li>
+				<li>15ページ</li>
+				<li>4人グループ制作</li>
+			</ul>
+			<div class="works-contents-body">
+				<p>架空のWEB制作会社のサイトです。「伝わるWEB制作会社」というコンセプトで、ブランディングページを設けたり図版を用いて、会社の特長、信頼感、活気が伝わるサイトを目指しました。<br>
+				コーディングと全ページのFlashによるメインヴィジュアルを担当しました。</p>
+			</div>
+		<!-- /works-contents --></section>
+	<img src="img/works/wasabi_m1.jpg" alt="WASABIサイトのトップページです" class="m1">
+	<img src="img/works/wasabi_m2.jpg" alt="WASABIサイトのサービス一覧ページです" class="m2">
+<!-- /works-individual --></article>
